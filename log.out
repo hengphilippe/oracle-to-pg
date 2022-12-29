@@ -1,0 +1,4471 @@
+Traceback (most recent call last):
+  File "/root/db-feeds/DBFeeds.py", line 15, in <module>
+    from DBConnector import DBConnector
+  File "/root/db-feeds/DBConnector.py", line 11, in <module>
+    from Subscribe import batchLoad as Subc
+  File "/root/db-feeds/Subscribe/batchLoad.py", line 3, in <module>
+    from turtle import update
+  File "/usr/local/lib/python3.9/turtle.py", line 107, in <module>
+    import tkinter as TK
+  File "/usr/local/lib/python3.9/tkinter/__init__.py", line 37, in <module>
+    import _tkinter # If this fails your Python may not be configured for Tk
+ModuleNotFoundError: No module named '_tkinter'
+---------------------------
+ -> Task for :  ASYWDB
+ - No new tables add for connector ASYWDB
+---------------------------
+-> DUMP Table :  awunadm.sad_item
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.742868
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.365934
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.897322
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.671162
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.437761
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.507783
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.600162
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:17.723157
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.857138
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.965814
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.997086
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.094412
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.449487
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.639455
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.266782
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.559262
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.815171
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.839753
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.913874
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.982927
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.542957
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.186884
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.834542
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.169110
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.525867
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.796236
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.781334
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.733460
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.998268
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.478096
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.674969
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.904325
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.923027
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.815673
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.925068
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.795759
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.939245
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.924472
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.059004
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.239447
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.555237
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.072235
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.548794
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.766926
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.786774
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.727580
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.321481
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.509341
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.277123
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.897085
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.631940
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.917328
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.050025
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.253636
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.910905
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.887571
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.317791
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.343326
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.278678
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.000609
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.487167
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:29.004098
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:22.015855
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.453578
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.964648
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.757212
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.935173
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.179316
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.030390
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.271552
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.832415
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.007514
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.858410
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.508491
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.139335
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.339541
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.987848
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.027063
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.201851
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.142759
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.045870
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.784202
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.239342
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.193247
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.438001
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.712904
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.184795
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.234018
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:23.305603
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:22.026923
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.974699
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.618832
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.907070
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.371002
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.762404
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.372776
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.151734
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.720442
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.736273
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.869059
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.924497
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.131130
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.148631
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.940497
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.672866
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.790965
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.080378
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.276032
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.403430
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.581079
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.928000
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.394035
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.206139
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.086251
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.039804
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.126263
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.664498
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.188117
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.169211
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.246078
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.499447
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.851710
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.063162
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.253781
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.668125
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.381497
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:27.821270
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.399907
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.279223
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.989898
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.885492
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.866378
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.150750
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.863940
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.361075
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.787059
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.278078
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.962878
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.309945
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.047081
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.286070
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.226441
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.075280
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.050000
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.978735
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.130159
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.460195
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.723442
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.388663
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.721318
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.997192
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.398639
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.546216
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.759115
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.009640
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:17.935230
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.654265
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.934998
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.470188
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.164999
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.773581
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.055217
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.845183
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.783606
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.168281
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.320548
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.363083
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.773160
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.224413
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.837194
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.356898
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.228958
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.463459
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.298254
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.186461
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.251777
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.666920
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.173631
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.503151
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.931467
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.455977
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.802882
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.243641
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.930984
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.937041
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.594952
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.205875
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.303111
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.946831
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.356618
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.489696
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.952854
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.806787
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.010812
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.968741
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.310535
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.463626
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.038770
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.912887
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.119804
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.533817
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.520090
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.592710
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.066210
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.045386
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.379787
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.567329
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.048208
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.283983
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.228373
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.186584
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.004960
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.076615
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.517682
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:17.834809
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.416015
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.164973
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.795537
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.905726
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.431585
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.871926
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:17.927736
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:17.960773
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:23.744348
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:21.509576
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.998286
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.615401
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.116913
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.164630
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.335997
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.627349
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.171872
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.051043
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.036076
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.612052
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.359630
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.323438
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.886003
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.871649
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.160526
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.103979
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.838118
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.584389
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.184472
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.292913
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.008773
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.960225
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.998179
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.374065
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.054241
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.102669
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.304634
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:20.132311
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.026308
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:23.104173
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:22.411877
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.688437
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.791173
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.636122
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.753893
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.834492
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.008209
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:17.666601
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.121528
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.400330
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.990423
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.707131
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.526043
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.413036
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.362693
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.829898
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.039977
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.399030
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:19.048536
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.654199
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:18.369254
+Finish one round....
+35136
+Starting insert to postgres
+Finish Postgres batch was : 0:00:13.395918
+Finish one round....
+ ++ new scn will be :  1113665827
+-->  scn for : awunadm.sad_item has been set
+---------------------------
+-> DUMP Table :  awunadm.sad_general_segment
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:41.640520
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:39.399063
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.177762
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.108691
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.372085
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:38.358955
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:38.101972
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:39.615515
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:39.424641
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.537976
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.386906
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.210863
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.277054
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.893592
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:44.715988
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.973309
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.300415
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.404474
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.446734
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:35.247925
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.499869
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.741249
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.682590
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.604041
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.784445
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.369407
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.402229
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:35.441283
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.081224
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:38.582573
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.081349
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:38.009110
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:38.939172
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:35.766323
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.445294
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.006529
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.755820
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.516483
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.045908
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:38.183115
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.971906
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:47.203774
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:38.139053
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.683799
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.807525
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:35.591659
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.492573
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.477220
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.757267
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.941777
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.814291
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.567915
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.864593
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.011652
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.472025
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.978298
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:39.362125
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.204204
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.667310
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.101355
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.878764
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:39.776987
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.724524
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.931037
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.181245
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.075838
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.885827
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:38.412050
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.764322
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.060202
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:39.255962
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:38.775146
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:39.413610
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.613987
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.835155
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.827112
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:36.824896
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:39.210153
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:42.913206
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.017970
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:38.207559
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:37.151217
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:39.438936
+Finish one round....
+8420
+Starting insert to postgres
+Finish Postgres batch was : 0:00:05.867133
+Finish one round....
+ ++ new scn will be :  1113692586
+-->  scn for : awunadm.sad_general_segment has been set
+---------------------------
+-> DUMP Table :  awunadm.sad_tax
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.320011
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.656075
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.252546
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.335621
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.189100
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.092987
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.110889
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.534086
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.156149
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.360410
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.273730
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.316065
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.227639
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.630406
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.273052
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.265680
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.641976
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.265058
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.579276
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.885873
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.172971
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.347048
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.226553
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.326929
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.884291
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.393209
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.557056
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.133490
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.323094
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.132553
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.350136
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.421420
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.386465
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.110554
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.473617
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.346225
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.374812
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.030102
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.331397
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:02.960804
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.439788
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.945007
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.841638
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.624905
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.397172
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.790616
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.554493
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.814315
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.169463
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.834676
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.399673
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.752434
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.531179
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.446312
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.936643
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.437003
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.755001
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.629663
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.030013
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.663323
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.484592
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.524843
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.745376
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.738745
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.856971
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.291446
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.413989
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.676691
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.678730
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.344647
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.202798
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.837290
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.005357
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.736829
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.500423
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.614841
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.377011
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.935943
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.793227
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.561739
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.636943
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.371785
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.541719
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.599778
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.385555
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.594266
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.618443
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.382592
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.500788
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.558763
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.037611
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.421776
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.827292
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.630445
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.225027
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.433120
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.776892
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.638177
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.619319
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.631345
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.485981
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.519434
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.462094
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.685655
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.271669
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.342836
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.637509
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.422250
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.848202
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.395402
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.303283
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.879858
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.569060
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.811575
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.793417
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.821324
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.375949
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.552819
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.665310
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.304381
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.297828
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.771485
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.307458
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.253266
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.606819
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.438462
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.404727
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.624618
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.757842
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.661480
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.140642
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.313494
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.372705
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.371370
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.875111
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.800273
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.830040
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.788386
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.538804
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.726435
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.250643
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.981689
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.923129
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.401707
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.748006
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.280634
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.904265
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.337485
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.783047
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.024113
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.358871
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.769734
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.211189
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.340349
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.217258
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.995759
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.077500
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.180864
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.870780
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.944220
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.753218
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.221855
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.984621
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.230393
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.283279
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.700989
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.670049
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.058803
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.121943
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.939844
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.873675
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.866575
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.265170
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.383210
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.218489
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.861582
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.987290
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.407546
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.566756
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.071836
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.346754
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.754047
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.602897
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.043570
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.112211
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.420484
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.149541
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.319876
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.861361
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.110274
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.673247
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.381384
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.946455
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.272711
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.147889
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.427667
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.347632
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.414617
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.195044
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.588067
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.893253
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.185971
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:08.416067
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:06.483708
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:05.823345
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:05.174340
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.560744
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.163933
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.054918
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.185778
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.207825
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.169144
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.780015
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.009106
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.693204
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.784656
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.888108
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.007393
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.940551
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.758502
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.690676
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.737829
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.044614
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.100148
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.553715
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.291815
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.650664
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.776969
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.961477
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.672879
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.070627
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.445281
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.944809
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.105630
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.493413
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.908172
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.255494
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.298574
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.525513
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.519900
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.586870
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.630555
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.810473
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.937640
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.424892
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.359012
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.848663
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.583116
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.427330
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.481498
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.392165
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.713542
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.548891
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.280744
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.628170
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.419907
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.651881
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.630266
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.446233
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.786044
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.568235
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.742455
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.611774
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.996783
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.786864
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.501115
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.429183
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.793699
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.841159
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.762647
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.492491
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.708262
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.546881
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.844995
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.682702
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.830238
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.702108
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.468696
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.745738
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.496449
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.277675
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.413337
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.983382
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.541067
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.281982
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.669704
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.655572
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.791901
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.692924
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.992010
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.455301
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.505732
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.662666
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.100501
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.577152
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.542310
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.409864
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.661545
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.854768
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.891666
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.515359
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.771176
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.520372
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.509421
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.648738
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.626453
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.669381
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.605047
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.504851
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.478729
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.446334
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.036840
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.873163
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.864008
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.432757
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.015311
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.925764
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.992908
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.622151
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.361957
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.777921
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.443322
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.704600
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.618153
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.846970
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.872821
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.939111
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.764790
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.747752
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.581716
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.205491
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.747798
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.425506
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.783463
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.024111
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.029837
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.784627
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.499234
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.120400
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.899903
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.730985
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.628202
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.721214
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.747113
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.694072
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.681741
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.905030
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.330670
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.667230
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.290211
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.366539
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.817060
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.173647
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.718341
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.455182
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.698057
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.888060
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.920113
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.614522
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.369910
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.791635
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.634784
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.610746
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.542444
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.554506
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.019947
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.180178
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.549500
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.647984
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.257410
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.731455
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.666435
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.598607
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.719812
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.572237
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.771774
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.205522
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.794115
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.718746
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.047237
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.692460
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.407190
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.773218
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.668076
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.503978
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.467259
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.585423
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.879619
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.434980
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.384007
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.612473
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.011753
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.573928
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.138140
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.632235
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.963785
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.210447
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.031512
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.249659
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.844884
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.682474
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.669711
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.170305
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.203305
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.927997
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.531153
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.694442
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.054091
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.472288
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.499556
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.523926
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.627829
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.398598
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.597041
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.587449
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.483027
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.363186
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.882548
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.947673
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.319868
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.595988
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.567743
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.431179
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.711584
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.725061
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.633159
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.690307
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.614382
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.953041
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.688983
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.627525
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.437358
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.875807
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.489605
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.378973
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.653380
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.905500
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.491532
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.924432
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.324636
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.838457
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.064859
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.559521
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.728109
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.110589
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.682343
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.632572
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.487209
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.505857
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.583391
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.739280
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.442601
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.389390
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.014234
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.837088
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.612894
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.424046
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.844664
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.024949
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.539022
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.390410
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.615656
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.997789
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.365246
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.459910
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.978962
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.583218
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.685570
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.590183
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.161686
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.455370
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.739821
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.575316
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.460366
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.487431
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.535470
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.930309
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.616671
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.537341
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.550930
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.665516
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.073810
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.587884
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.023963
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.893923
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.548760
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.535031
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.805471
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.884569
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.383613
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.601655
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.439551
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.472848
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.134669
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.351271
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.363950
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.664212
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.608513
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.923260
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.270054
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.529545
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.547506
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.569517
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.347416
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.487454
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.631920
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.360937
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.287623
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.394022
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.584395
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.184775
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.634266
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.639852
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.291793
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.365453
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.717448
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.521342
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.645208
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.708221
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.931284
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.473742
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.320236
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.535475
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.910620
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.583525
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.525161
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.893693
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.491419
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.617112
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.429861
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.457576
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.580330
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.516290
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.617013
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.832741
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.048478
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.459358
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.769027
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.556524
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.975036
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.495699
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.590634
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.893345
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.829389
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.476185
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.516240
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.971486
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.858965
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.492833
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.303513
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.551430
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.379698
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.507871
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.614410
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.225423
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.665257
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.724614
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.603111
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.544976
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.793797
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.767965
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.685639
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.631753
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.935415
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.696696
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.793149
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.697945
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.912235
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.630869
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.893017
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.902820
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.743570
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.877709
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.266575
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.045551
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.639491
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.790811
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.771598
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.828438
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.099023
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.484926
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.990914
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.739202
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.942901
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.524871
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.216217
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.842911
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.631567
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.697949
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.097015
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.151924
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.947325
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.686620
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.769062
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.761007
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.917305
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.716972
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.719766
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.444182
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.761219
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.967984
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.850589
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.795082
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.678957
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.788483
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.647152
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.819964
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.684469
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.972769
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.955276
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.969892
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.619141
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.562076
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.547611
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.527366
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.773253
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.820761
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.851106
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:11.566905
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:07.271130
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:05.782582
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:05.255348
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.626772
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.785174
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.227406
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.114585
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.408568
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.646778
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.186235
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.643853
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.772062
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.937064
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.422152
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.900061
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.647551
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.922492
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.616039
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.886286
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.888822
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.640871
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.965027
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.855468
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.103071
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.538313
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.278963
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.837363
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.150209
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.936135
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.737417
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.483945
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.751326
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.905178
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.795154
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.723553
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.598939
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.939671
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.524190
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.492758
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.721084
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.986851
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.558246
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.818955
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.604676
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.946399
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.846183
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.643650
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.065249
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.434724
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.800721
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.918342
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.692683
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.538749
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.947701
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.637506
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.460463
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.040698
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.832412
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.575624
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.396273
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.445742
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.532091
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.525395
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.089227
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.578554
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.683384
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.565299
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.589684
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.948325
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.595376
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.732536
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.546086
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.564782
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.799754
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.695719
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.857820
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.888871
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.416865
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.238089
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.639810
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.558578
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.414653
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.808846
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.930860
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.576887
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.785536
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.388040
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.443033
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.634627
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.685841
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.458585
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.839377
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.810001
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.192738
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.507284
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.155150
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.662539
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.881819
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.472057
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.623687
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.249336
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.548588
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.755428
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.467487
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.997469
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.637399
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.355751
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.430698
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.813590
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.670797
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.406766
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.667378
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:04.135467
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.520952
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.688371
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.486864
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.622741
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.513694
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.417841
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.750887
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.447075
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.554689
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.605405
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.698233
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.603939
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.495194
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.675724
+Finish one round....
+50000
+Starting insert to postgres
+Finish Postgres batch was : 0:00:03.537984
+Finish one round....
+3653
+Starting insert to postgres
+Finish Postgres batch was : 0:00:00.309902
+Finish one round....
+ ++ new scn will be :  1113707181
+-->  scn for : awunadm.sad_tax has been set
+---------------------------
+ -> Task for :  ECUSDB
+ - No new tables add for connector ECUSDB
+------------ Log mining process ---------------
+['WEB_CE_SAD_GENERAL_SEGMENT', 'WEB_CE_SAD_ITEM', 'WEB_CE_SAD_TAX', 'WEB_CE_VHC_ITM', 'WEB_CE_VHC_RCP', 'WEB_CE_VHC_TAX']
+No records found
+time was 6:18:00.573866
+sleeping...

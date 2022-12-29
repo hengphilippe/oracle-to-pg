@@ -1,0 +1,868 @@
+CREATE TABLE SAD_CONTAINERS
+(
+    INSTANCEID NUMERIC(10, 0),
+    KEY_RNK    NUMERIC(10, 0),
+    ITM_NBR    NUMERIC(10, 0),
+    IDT        VARCHAR(17),
+    TYP        VARCHAR(4),
+    FUL        VARCHAR(4),
+    WTC        NUMERIC,
+    GDS        VARCHAR(100),
+    PKG_TYP    VARCHAR(17),
+    PKG_NBR    NUMERIC,
+    PKG_WGT    NUMERIC,
+    UNLOADED   VARCHAR(1),
+
+    CONSTRAINT SAD_CONTAINERS_INSTANCEID CHECK ( INSTANCEID IS NOT NULL ),
+    CONSTRAINT SAD_CONTAINERS_KEY_RNK CHECK ( KEY_RNK IS NOT NULL ),
+    CONSTRAINT PK_SAD_CONTAINERS PRIMARY KEY (INSTANCEID, KEY_RNK)
+);
+
+CREATE UNIQUE INDEX SAD_CONTAINERS_UNIQUE_IDX ON SAD_CONTAINERS (INSTANCEID, KEY_RNK);
+
+-- 40sec 
+CREATE TABLE SAD_VEHICLES 
+(
+    INSTANCEID NUMERIC(10, 0),
+    KEY_RNK    NUMERIC(10, 0),
+    ITM_NBR    NUMERIC(10, 0),
+    TYP        VARCHAR(75),
+    BRA        VARCHAR(75),
+    MDL        VARCHAR(75),
+    YER        VARCHAR(4),
+    CON        VARCHAR(5),
+    VSW        VARCHAR(5),
+    ENP        VARCHAR(50),
+    EPU        VARCHAR(5),
+    GVW        VARCHAR(50),
+    CHS        VARCHAR(50),
+    ENG        VARCHAR(50),
+    COL        VARCHAR(25),
+    FUT        VARCHAR(25),
+    ADT        VARCHAR(125),
+
+    CONSTRAINT SAD_VEHICLES_INSTANCEID CHECK ( INSTANCEID IS NOT NULL ),
+    CONSTRAINT SAD_VEHICLES_KEY_RNK CHECK ( KEY_RNK IS NOT NULL ),
+    CONSTRAINT SAD_VEHICLES_ITM_NBR CHECK ( ITM_NBR IS NOT NULL ),
+
+    CONSTRAINT PK_SAD_VEHICLES PRIMARY KEY (INSTANCEID, KEY_RNK)
+);
+
+
+CREATE TABLE SAD_GENERAL_SEGMENT
+(
+    INSTANCEID      NUMERIC(10, 0),
+    RLS_CUO_COD     VARCHAR(5),
+    RLS_CUO_NAM     VARCHAR(35),
+    RLS_REF         VARCHAR(35),
+    RLS_INF         VARCHAR(35),
+    RLS_DAT         DATE,
+    RLS_TIM         TIMESTAMP(6),
+    PRV_DTY         NUMERIC,
+    PTY_COL_DSC     VARCHAR(35),
+    PTY_COL_IND     VARCHAR(1),
+    PTY_BLU         NUMERIC(10, 0),
+    PTY_RED         NUMERIC(10, 0),
+    PTY_YEL         NUMERIC(10, 0),
+    PTY_GRE         NUMERIC(10, 0),
+    PTY_OAS         TEXT,
+    PTY_QUE         NUMERIC(10, 0),
+    PTY_WDE         VARCHAR(255),
+    PTY_FRM_NBR     NUMERIC(10, 0),
+    PTY_FRM_TOT     NUMERIC(10, 0),
+    PTY_NBR_LDL     NUMERIC(10, 0),
+    PTY_NBR_ITM     NUMERIC(10, 0),
+    PTY_NBR_PCK     NUMERIC(10, 0),
+    PTY_PLC         VARCHAR(35),
+    PTY_CDE         DATE,
+    IDE_CUO_COD     VARCHAR(5),
+    IDE_CUO_NAM     VARCHAR(35),
+    IDE_TYP_SAD     VARCHAR(3),
+    IDE_TYP_PRC     VARCHAR(1),
+    IDE_TYP_TYP     VARCHAR(1),
+    IDE_TYP_TRS     VARCHAR(5),
+    IDE_MAN         VARCHAR(28),
+    IDE_BAR         VARCHAR(60),
+    IDE_REG_SER     VARCHAR(1),
+    IDE_REG_NBR     VARCHAR(50),
+    IDE_REG_DAT     DATE,
+    IDE_AST_SER     VARCHAR(1),
+    IDE_AST_NBR     VARCHAR(50),
+    IDE_AST_DAT     DATE,
+    IDE_RCP_SER     VARCHAR(1),
+    IDE_RCP_NBR     VARCHAR(50),
+    IDE_RCP_DAT     DATE,
+    IDE_RCP_TYP     VARCHAR(1),
+    IDE_RCP_CUO     VARCHAR(5),
+    IDE_PST_NBR     VARCHAR(50),
+    IDE_PST_DAT     DATE,
+    IDE_PST_TMP_PRE VARCHAR(50),
+    IDE_PST_TMP_TY1 VARCHAR(1),
+    IDE_PST_TMP_TY2 VARCHAR(1),
+    CMP_EXP_COD     VARCHAR(17),
+    CMP_EXP_NAM     TEXT,
+    CMP_CON_COD     VARCHAR(17),
+    CMP_CON_NAM     TEXT,
+    CMP_FIS_COD     VARCHAR(17),
+    CMP_FIS_NAM     TEXT,
+    DEC_FLG         VARCHAR(1),
+    DEC_COD         VARCHAR(17),
+    DEC_NAM         TEXT,
+    DEC_REF_YER     NUMERIC(10, 0),
+    DEC_REF_NBR     VARCHAR(50),
+    DEC_REP         VARCHAR(80),
+    GEN_CTY_FLT     VARCHAR(3),
+    GEN_CTY_TRD     VARCHAR(3),
+    GEN_CTY_EPT_COD VARCHAR(3),
+    GEN_CTY_EPT_NAM VARCHAR(35),
+    GEN_CTY_EPT_CRG VARCHAR(4),
+    GEN_CTY_DES_COD VARCHAR(3),
+    GEN_CTY_DES_NAM VARCHAR(35),
+    GEN_CTY_DES_CRG VARCHAR(4),
+    GEN_CTY_ORG     VARCHAR(35),
+    GEN_VDT         NUMERIC,
+    GEN_CAP         VARCHAR(5),
+    TPT_MOT_DPA_NAM VARCHAR(35),
+    TPT_MOT_DPA_CTY VARCHAR(3),
+    TPT_MOT_BRD_NAM VARCHAR(35),
+    TPT_MOT_BRD_CTY VARCHAR(3),
+    TPT_MOT_BRD_COD VARCHAR(2),
+    TPT_MOT_INL     VARCHAR(2),
+    TPT_CTF         NUMERIC(1, 0),
+    TPT_TOD_COD     VARCHAR(3),
+    TPT_TOD_PLC     VARCHAR(35),
+    TPT_TOD_SIT     VARCHAR(2),
+    TPT_CUO_COD     VARCHAR(5),
+    TPT_CUO_NAM     VARCHAR(35),
+    TPT_LOP_COD     VARCHAR(5),
+    TPT_LOP_NAM     VARCHAR(35),
+    TPT_LOP_CTY     VARCHAR(3),
+    TPT_LOC         VARCHAR(17),
+    TPT_T1          NUMERIC(10, 0),
+    FIN_TRA_NA1     VARCHAR(1),
+    FIN_TRA_NA2     VARCHAR(1),
+    FIN_BNK_COD     VARCHAR(17),
+    FIN_BNK_NAM     TEXT,
+    FIN_BNK_BRA     VARCHAR(17),
+    FIN_BNK_FRE     VARCHAR(35),
+    FIN_TOP_COD     VARCHAR(3),
+    FIN_TOP_NAM     VARCHAR(35),
+    FIN_ACC         VARCHAR(17),
+    FIN_MPN         VARCHAR(35),
+    FIN_AMT_MNL     NUMERIC,
+    FIN_AMT_FEE     NUMERIC,
+    FIN_AMT_DTY     NUMERIC,
+    FIN_AMT_TBP     NUMERIC,
+    FIN_GTY_NAM     VARCHAR(35),
+    FIN_GTY_AMT     NUMERIC,
+    FIN_GTY_DAT     DATE,
+    FIN_GTY_CTY_COD VARCHAR(3),
+    FIN_GTY_CTY_NAM VARCHAR(35),
+    VGS_WRK         VARCHAR(1),
+    VGS_WGT_GRS     NUMERIC,
+    VGS_CST         NUMERIC,
+    VGS_CIF         NUMERIC,
+    VGS_TOT_NMU     NUMERIC,
+    VGS_TOT_FCX     NUMERIC,
+    VGS_TOT_GRS     NUMERIC,
+    VGS_INV_AMT_NMU NUMERIC,
+    VGS_INV_AMT_FCX NUMERIC,
+    VGS_INV_CUR_COD VARCHAR(3),
+    VGS_INV_CUR_NAM VARCHAR(35),
+    VGS_INV_CUR_RAT NUMERIC,
+    VGS_INV_CUR_REF NUMERIC,
+    VGS_EFR_AMT_NMU NUMERIC,
+    VGS_EFR_AMT_FCX NUMERIC,
+    VGS_EFR_CUR_COD VARCHAR(3),
+    VGS_EFR_CUR_NAM VARCHAR(35),
+    VGS_EFR_CUR_RAT NUMERIC,
+    VGS_EFR_CUR_REF NUMERIC,
+    VGS_IFR_AMT_NMU NUMERIC,
+    VGS_IFR_AMT_FCX NUMERIC,
+    VGS_IFR_CUR_COD VARCHAR(3),
+    VGS_IFR_CUR_NAM VARCHAR(35),
+    VGS_IFR_CUR_RAT NUMERIC,
+    VGS_IFR_CUR_REF NUMERIC,
+    VGS_INS_AMT_NMU NUMERIC,
+    VGS_INS_AMT_FCX NUMERIC,
+    VGS_INS_CUR_COD VARCHAR(3),
+    VGS_INS_CUR_NAM VARCHAR(35),
+    VGS_INS_CUR_RAT NUMERIC,
+    VGS_INS_CUR_REF NUMERIC,
+    VGS_OTC_AMT_NMU NUMERIC,
+    VGS_OTC_AMT_FCX NUMERIC,
+    VGS_OTC_CUR_COD VARCHAR(3),
+    VGS_OTC_CUR_NAM VARCHAR(35),
+    VGS_OTC_CUR_RAT NUMERIC,
+    VGS_OTC_CUR_REF NUMERIC,
+    VGS_DED_AMT_NMU NUMERIC,
+    VGS_DED_AMT_FCX NUMERIC,
+    VGS_DED_CUR_COD VARCHAR(3),
+    VGS_DED_CUR_NAM VARCHAR(35),
+    VGS_DED_CUR_RAT NUMERIC,
+    VGS_DED_CUR_REF NUMERIC,
+    WHS_COD         VARCHAR(17),
+    WHS_TIM         NUMERIC(10, 0),
+    TRS_RSP_COD     VARCHAR(17),
+    TRS_RSP_NAM     TEXT,
+    TRS_RSP_REP     VARCHAR(35),
+    TRS_SGT_PLC     VARCHAR(35),
+    TRS_SGT_DAT     DATE,
+    TRS_DES_CUO     VARCHAR(35),
+    TRS_DES_CTY     VARCHAR(3),
+    TRS_SLS_NBR     NUMERIC(10, 0),
+    TRS_SLS_IDE     VARCHAR(17),
+    TRS_CTL         VARCHAR(11),
+    TRS_LIM         DATE,
+    TRS_COF         VARCHAR(35),
+    AST_RYR         VARCHAR(4),
+    AST_AYR         VARCHAR(4),
+    AST_TOT         NUMERIC,
+    AST_AMT         NUMERIC,
+    AST_STN         VARCHAR(11),
+    AST_STD         DATE,
+    AST_STS         VARCHAR(1),
+    RLO_NBR         NUMERIC(10, 0),
+    EXA_SEC         VARCHAR(17),
+    EXA_EXA         VARCHAR(17),
+    EXA_CEX         VARCHAR(17),
+    EXA_WGT         NUMERIC(10, 0),
+    LST_RCP_AMT     NUMERIC,
+    GEN_FRE         TEXT,
+    TRS_DES_COD     VARCHAR(5),
+    LST_RCP_SER     VARCHAR(1),
+    LST_RCP_NBR     VARCHAR(50),
+    LST_RCP_DAT     DATE,
+    LST_RCP_TYP     VARCHAR(1),
+    LST_RCP_CUO     VARCHAR(5),
+    BROKER_STAMP    BYTEA,
+    CUSTOMS_STAMP   BYTEA,
+    FAC             NUMERIC(10, 0),
+    DOC_REF_DAT     DATE,
+    DOC_REF_NBR     VARCHAR(50),
+    FIN_PIN         VARCHAR(35),
+    PTY_FAC         VARCHAR(35),
+    PTY_STS         VARCHAR(50),
+    CMP_FIS_IDE_CTY          VARCHAR(3),  
+    CMP_FIS_IDE_NBR          VARCHAR(50), 
+    CMP_FIS_IDE_DAT          DATE,  
+    CONSTRAINT SAD_GEN_INSTANCEID CHECK ( INSTANCEID IS NOT NULL),
+    CONSTRAINT PK_SAD_GEN PRIMARY KEY (INSTANCEID)
+);
+CREATE INDEX SAD_GEN_REG_DAT_CUO_COD_IDX ON SAD_GENERAL_SEGMENT (IDE_CUO_COD, IDE_REG_DAT);
+CREATE INDEX SAD_GEN_CUO_COD_REG_NBR_IDX ON SAD_GENERAL_SEGMENT (IDE_CUO_COD, IDE_REG_NBR);
+CREATE INDEX SAD_GEN_CUO_AST_IDX ON SAD_GENERAL_SEGMENT (IDE_CUO_COD, IDE_AST_NBR);
+CREATE INDEX SAD_GEN_IMX ON SAD_GENERAL_SEGMENT (CMP_CON_COD);
+CREATE INDEX SAD_GEN_DEX ON SAD_GENERAL_SEGMENT (DEC_COD);
+CREATE INDEX SAD_GEN_DAT_IMX ON SAD_GENERAL_SEGMENT (CMP_CON_COD, IDE_AST_DAT);
+CREATE INDEX SAD_GEN_DAT_DEX ON SAD_GENERAL_SEGMENT (DEC_COD, IDE_AST_DAT);
+CREATE INDEX SAD_GEN_DAT_EXX ON SAD_GENERAL_SEGMENT (CMP_EXP_COD, IDE_AST_DAT);
+CREATE INDEX SAD_GEN_EXIT_NOTE ON SAD_GENERAL_SEGMENT (DEC_COD, IDE_CUO_COD, TPT_LOC, IDE_REG_DAT);
+CREATE INDEX SAD_GEN_IDX ON SAD_GENERAL_SEGMENT (IDE_CUO_COD, DEC_REF_YER, DEC_COD, DEC_REF_NBR);
+CREATE INDEX SAD_GEN_DEC_IDX ON SAD_GENERAL_SEGMENT (IDE_CUO_COD, DEC_REF_NBR);
+CREATE INDEX SAD_GEN_BAR_CODX ON SAD_GENERAL_SEGMENT (IDE_BAR);
+CREATE INDEX SAD_GEN_MPN_INDX ON SAD_GENERAL_SEGMENT (FIN_MPN);
+CREATE INDEX SAD_GEN_EXX ON SAD_GENERAL_SEGMENT (CMP_EXP_COD);
+
+
+-- 18mins (8.2M)
+CREATE TABLE SAD_CONTAINERS
+(
+    INSTANCEID NUMERIC(10, 0),
+    KEY_RNK    NUMERIC(10, 0),
+    ITM_NBR    NUMERIC(10, 0),
+    IDT        VARCHAR(17),
+    TYP        VARCHAR(4),
+    FUL        VARCHAR(4),
+    WTC        NUMERIC,
+    GDS        VARCHAR(100),
+    PKG_TYP    VARCHAR(17),
+    PKG_NBR    NUMERIC,
+    PKG_WGT    NUMERIC,
+    UNLOADED   VARCHAR(1),
+
+    CONSTRAINT SAD_CONTAINERS_INSTANCEID CHECK ( INSTANCEID IS NOT NULL ),
+    CONSTRAINT SAD_CONTAINERS_KEY_RNK CHECK ( KEY_RNK IS NOT NULL ),
+    CONSTRAINT PK_SAD_CONTAINERS PRIMARY KEY (INSTANCEID, KEY_RNK)
+);
+
+CREATE UNIQUE INDEX SAD_CONTAINERS_UNIQUE_IDX ON SAD_CONTAINERS (INSTANCEID, KEY_RNK);
+
+-- 14mins 
+CREATE TABLE SAD_SUPPLEMENTARY_UNIT
+(
+    INSTANCEID  NUMERIC(10, 0),
+    KEY_ITM_NBR NUMERIC(10, 0),
+    KEY_SUP_RNK NUMERIC(10, 0),
+    TAR_SUP_COD VARCHAR(3),
+    TAR_SUP_NAM VARCHAR(50),
+    TAR_SUP_QTY NUMERIC,
+
+    CONSTRAINT PK_SAD_SUPPLEMENTARY_UNIT PRIMARY KEY (INSTANCEID, KEY_ITM_NBR, KEY_SUP_RNK)
+);
+
+CREATE INDEX SAD_SUP_IDX ON SAD_SUPPLEMENTARY_UNIT (INSTANCEID, KEY_ITM_NBR);
+CREATE UNIQUE INDEX SAD_SUPPLEMENTARY_UNIT_UNIQUE_IDX ON SAD_SUPPLEMENTARY_UNIT (INSTANCEID, KEY_ITM_NBR, KEY_SUP_RNK);
+
+
+--1:12:23
+CREATE TABLE SAD_TAX
+(
+    INSTANCEID  NUMERIC(10, 0),
+    KEY_ITM_NBR NUMERIC(10, 0),
+    KEY_TAX_RNK NUMERIC(10, 0),
+    TAX_LIN_COD VARCHAR(3),
+    TAX_LIN_BSE NUMERIC,
+    TAX_LIN_RAT NUMERIC,
+    TAX_LIN_AMT NUMERIC,
+    TAX_LIN_MOP VARCHAR(1),
+    TAX_LIN_TYP VARCHAR(1),
+
+    CONSTRAINT PK_SAD_TAX PRIMARY KEY (INSTANCEID, KEY_ITM_NBR, KEY_TAX_RNK)
+);
+
+CREATE INDEX SAD_TAX_IDX ON SAD_TAX(INSTANCEID, KEY_ITM_NBR);
+CREATE UNIQUE INDEX SAD_TAX_UNIQUE_IDX ON SAD_TAX (INSTANCEID, KEY_ITM_NBR, KEY_TAX_RNK);
+
+
+-- 4sec
+CREATE TABLE UNCMPTAB
+(
+    CMP_COD     VARCHAR(17),
+    VALID_FROM  TIMESTAMP(6),
+    VALID_TO    TIMESTAMP(6),
+    CMP_NAM     VARCHAR(70),
+    CMP_ADR     VARCHAR(70),
+    CMP_AD2     VARCHAR(37),
+    CMP_AD3     VARCHAR(35),
+    CMP_AD4     VARCHAR(35),
+    CMP_TEL     VARCHAR(15),
+    CMP_FAX     VARCHAR(15),
+    CMP_TLX     VARCHAR(15),
+    CMP_STA     NUMERIC(10, 0),
+    MODIFY_TIME TIMESTAMP(6),
+    FLG_REM     NUMERIC(1, 0),
+
+    CONSTRAINT UNCMPTAB_CMP_COD CHECK ( CMP_COD IS NOT NULL ),
+    CONSTRAINT UNCMPTAB_VALID_FROM CHECK ( VALID_FROM IS NOT NULL ),
+    CONSTRAINT PK_UNCMPTAB PRIMARY KEY (CMP_COD, VALID_FROM)
+);
+
+CREATE UNIQUE INDEX UNCMPTAB_UNIQUE_IDX ON UNCMPTAB (CMP_COD, VALID_FROM);
+
+-- 2sec
+CREATE TABLE UNCTYTAB
+(
+    CTY_COD     VARCHAR(3),
+    VALID_FROM  TIMESTAMP(6),
+    VALID_TO    TIMESTAMP(6),
+    CTY_DSC     VARCHAR(35),
+    CTY_DSC2    VARCHAR(35),
+    CTY_DSC3    VARCHAR(35),
+    RUL_COD     VARCHAR(17),
+    MODIFY_TIME TIMESTAMP(6),
+    FLG_REM     NUMERIC(1, 0),
+
+    CONSTRAINT UNCTYTAB_CTY_COD CHECK ( CTY_COD IS NOT NULL ),
+    CONSTRAINT UNCTYTAB_VALID_FROM CHECK ( VALID_FROM IS NOT NULL ),
+    CONSTRAINT PK_UNCTYTAB PRIMARY KEY (CTY_COD, VALID_FROM)
+);
+
+CREATE UNIQUE INDEX UNCTYTAB_UNIQUE_IDX ON UNCTYTAB (CTY_COD, VALID_FROM);
+
+
+CREATE TABLE UNCUOTAB
+(
+    CUO_COD     VARCHAR(5),
+    VALID_FROM  TIMESTAMP(6),
+    VALID_TO    TIMESTAMP(6),
+    CUO_NAM     VARCHAR(35),
+    CUO_NAM2    VARCHAR(35),
+    CUO_NAM3    VARCHAR(35),
+    CUO_ADR     VARCHAR(35),
+    CUO_AD2     VARCHAR(35),
+    CUO_AD3     VARCHAR(35),
+    CUO_AD4     VARCHAR(35),
+    CUO_TEL     VARCHAR(15),
+    CUO_FAX     VARCHAR(15),
+    CUO_TLX     VARCHAR(15),
+    CUO_CLR     VARCHAR(1),
+    CUO_BRD     VARCHAR(1),
+    CUO_ACC     VARCHAR(17),
+    BNK_COD     VARCHAR(17),
+    BRA_COD     VARCHAR(17),
+    CUO_CAP     VARCHAR(1),
+    MODIFY_TIME TIMESTAMP(6),
+    FLG_REM     NUMERIC(1, 0),
+
+    CONSTRAINT UNCUOTAB_CUO_COD CHECK ( CUO_COD IS NOT NULL ),
+    CONSTRAINT UNCUOTAB_VALID_FROM CHECK ( VALID_FROM IS NOT NULL ),
+    CONSTRAINT PK_UNCUOTAB PRIMARY KEY (CUO_COD, VALID_FROM)
+);
+
+-- 1sec
+CREATE UNIQUE INDEX UNCUOTAB_UNIQUE_IDX ON UNCUOTAB (CUO_COD, VALID_FROM);
+
+
+-- 4sec
+CREATE TABLE UNDECTAB
+(
+    DEC_COD     VARCHAR(35),
+    VALID_FROM  TIMESTAMP(6),
+    VALID_TO    TIMESTAMP(6),
+    DEC_NAM     VARCHAR(70),
+    DEC_ADR     VARCHAR(70),
+    DEC_AD2     VARCHAR(35),
+    DEC_AD3     VARCHAR(35),
+    DEC_AD4     VARCHAR(35),
+    DEC_TEL     VARCHAR(15),
+    DEC_FAX     VARCHAR(15),
+    DEC_TLX     VARCHAR(15),
+    DEC_BRK     NUMERIC(10, 0),
+    CMP_COD     VARCHAR(17),
+    DEC_STA     NUMERIC(10, 0),
+    MODIFY_TIME VARCHAR(255),
+    FLG_REM     NUMERIC(1, 0),
+
+    CONSTRAINT UNDECTAB_DEC_COD CHECK ( DEC_COD IS NOT NULL ),
+    CONSTRAINT UNDECTAB_VALID_FROM CHECK ( VALID_FROM IS NOT NULL ),
+    CONSTRAINT PK_UNDECTAB PRIMARY KEY (DEC_COD, VALID_FROM)
+);
+
+CREATE UNIQUE INDEX UNDECTAB_UNIQUE_IDX ON UNDECTAB (DEC_COD, VALID_FROM);
+
+
+-- 2sec
+CREATE TABLE UNRATTAB
+(
+    CUR_COD     VARCHAR(3),
+    VALID_FROM  TIMESTAMP(6),
+    VALID_TO    TIMESTAMP(6),
+    CUR_REF     NUMERIC,
+    RAT_EXC     NUMERIC,
+    MODIFY_TIME VARCHAR(255),
+    FLG_REM     NUMERIC(1, 0),
+
+    CONSTRAINT UNRATTAB_CUR_COD CHECK ( CUR_COD IS NOT NULL ),
+    CONSTRAINT UNRATTAB_VALID_FROM CHECK ( VALID_FROM IS NOT NULL ),
+    CONSTRAINT PK_UNRATTAB PRIMARY KEY (CUR_COD, VALID_FROM)
+);
+
+CREATE UNIQUE INDEX UNRATTAB_UNIQUE_IDX ON UNRATTAB (CUR_COD, VALID_FROM);
+
+-- 50:29 mins
+CREATE TABLE UN_ASYBRK_IED
+(
+    IED_ID      NUMERIC(10, 0),
+    BINDER_ID   VARCHAR(255),
+    INSTANCE_ID NUMERIC(10, 0),
+
+    CONSTRAINT PK_UN_ASYBRK_IED PRIMARY KEY (IED_ID),
+    CONSTRAINT UN_ASYBRK_IED_IED_ID CHECK ( IED_ID IS NOT NULL ),
+    CONSTRAINT UN_ASYBRK_IED_NDX UNIQUE (BINDER_ID, INSTANCE_ID)
+);
+
+CREATE UNIQUE INDEX UN_ASYBRK_IED_UNIQUE_IDX ON UN_ASYBRK_IED (IED_ID);
+CREATE UNIQUE INDEX UN_ASYBRK_IED_UNIQUE_IDX_NDX ON UN_ASYBRK_IED (BINDER_ID, INSTANCE_ID);
+
+--2H 25mins
+CREATE TABLE UN_ASYBRK_TRACK
+(
+    IED_ID           NUMERIC(10, 0),
+    DOC_VER          NUMERIC(10, 0),
+    OP_NAME          VARCHAR(50),
+    STATUS           VARCHAR(50),
+    END_USER         NUMERIC(10, 0),
+    OWNER            VARCHAR(50),
+    CLOSED_DATE_TIME varchar(255),
+    OP_DATE_TIME     varchar(255),
+    C_BINDER_ID      VARCHAR(255),
+    SIGNS            TEXT,
+
+    CONSTRAINT UN_ASYBRK_TRACK_IED_ID CHECK ( IED_ID IS NOT NULL ),
+    CONSTRAINT UN_ASYBRK_TRACK_DOC_VER CHECK ( DOC_VER IS NOT NULL ),
+    CONSTRAINT PK_UN_ASYBRK_TRACK PRIMARY KEY (IED_ID, DOC_VER)
+);
+
+--0:00:42.133198
+CREATE TABLE VEHICLE_RECEIPT
+(
+    INSTANCE_ID NUMERIC(10, 0),
+    IDE_COD     VARCHAR(5),
+    IDE_NAM     VARCHAR(35),
+    IDE_YEA     VARCHAR(4),
+    IDE_SER     VARCHAR(1),
+    IDE_NBR     NUMERIC(10, 0),
+    IDE_DAT     DATE,
+    DEC_SER     VARCHAR(1),
+    DEC_NBR     NUMERIC(10, 0),
+    DEC_DAT     DATE,
+    TRA_DEC_COD VARCHAR(17),
+    TRA_DEC_NAM VARCHAR(50),
+    TRA_DEC_ADD TEXT,
+    TRA_CMP_COD VARCHAR(17),
+    TRA_CMP_NAM VARCHAR(50),
+    TRA_CMP_ADD TEXT,
+    INV_CUR_COD VARCHAR(5),
+    INV_CUR_RAT NUMERIC,
+    REG_DAT     DATE,
+    RCP_DAT     DATE,
+    OFFICER     VARCHAR(35),
+    PRN_NBR     NUMERIC(5, 0),
+
+    CONSTRAINT VEHICLE_RECEIPT_INSTANCE_ID CHECK ( INSTANCE_ID IS NOT NULL ),
+    CONSTRAINT PK_VEHICLE_RECEIPT PRIMARY KEY (INSTANCE_ID)
+);
+
+CREATE UNIQUE INDEX VEHICLE_RECEIPT_UNIQUE_IDX ON VEHICLE_RECEIPT (INSTANCE_ID);
+
+
+-------------------------- eCustoms -------------------------
+-------------------------------------------------------------
+
+CREATE TABLE WEB_CE_SAD_GENERAL_SEGMENT
+(
+ID                     NUMERIC(10),          
+IDE_CUO_COD            VARCHAR(255),       
+IDE_CUO_NAM            TEXT,                
+IDE_REG_SER                    VARCHAR(255),  
+IDE_REG_NBR                    NUMERIC(10),          
+IDE_REG_YER                    VARCHAR(255),  
+IDE_REG_DAT                    VARCHAR(255),        
+IDE_REG_TYP            VARCHAR(255),       
+IDE_OWNER_NAM                  VARCHAR(255),       
+IDE_OWNER_SEX                  VARCHAR(255),       
+IDE_OWNER_IDP                  VARCHAR(255),       
+IDE_OWNER_NAT                  VARCHAR(255),       
+IDE_OWNER_ADR                  VARCHAR(255),       
+IDE_CMP_COD                    VARCHAR(255),       
+IDE_CMP_REG_DAT                VARCHAR(255),       
+IDE_CMP_NAM                    TEXT,     
+REF_SEI_REC                    VARCHAR(255),       
+REF_SEI_REC_DAT                VARCHAR(255),        
+REF_SEI_DEC                    VARCHAR(255),       
+REF_SEI_DEC_DAT                VARCHAR(255),        
+NBR_ITM                        NUMERIC(16),          
+PTY_NBR_ITM                    NUMERIC(10),          
+PTY_NBR_PCK                    NUMERIC(10),          
+INV_CUR_COD                    VARCHAR(255),       
+INV_CUR_RAT                    NUMERIC(12,2),        
+VGS_CIF                        NUMERIC(12,2),        
+VGS_INV_AMT_FCX                NUMERIC(16,2),        
+FIN_MPN                        VARCHAR(255),       
+FIN_RCP_REF                    VARCHAR(255),       
+FIN_RCP_DAT                    VARCHAR(255),        
+IDE_AST_SER                    VARCHAR(255),       
+IDE_AST_NBR                    VARCHAR(255),       
+IDE_AST_DAT                    VARCHAR(255),        
+IDE_RCP_SER                    VARCHAR(255),       
+IDE_RCP_NBR                    VARCHAR(255),       
+IDE_RCP_TYP                    VARCHAR(255),       
+IDE_RCP_DAT                    VARCHAR(255),        
+IDE_RCP_YER                    VARCHAR(255),       
+FIN_AMT_DTY                    NUMERIC(16,2),        
+FIN_AMT_TBP                    NUMERIC(16,2),        
+FIN_GTY_AMT                    NUMERIC(16,2),        
+TRD_TEX                        text,                
+LOC_FROM                       VARCHAR(255),       
+LOC_FROM_TIM                   VARCHAR(255),       
+LOC_FROM_DAT                   VARCHAR(255),        
+LOC_TO                         VARCHAR(255),       
+LOC_TO_TIM                     VARCHAR(255),       
+LOC_TO_DAT                     VARCHAR(255),        
+OTH_REF                        TEXT,                
+OTHER                          TEXT,                
+INFO                           TEXT,                
+USR_ID                         NUMERIC(16),          
+USERNAME                       VARCHAR(255),       
+VALID_FROM                     VARCHAR(255),        
+VALID_TO                       VARCHAR(255),        
+ADD_VAL                        NUMERIC(12),          
+CMP_EXP_COD                    VARCHAR(255),       
+CMP_EXP_NAM                    VARCHAR(255),       
+CMP_FIS_COD                    VARCHAR(255),       
+CMP_FIS_NAM                    VARCHAR(255),       
+CUO_DES_COD                    VARCHAR(255),       
+CUO_DES_NAM                    VARCHAR(255),       
+CTL_RES                        VARCHAR(255),       
+CTL_RE2                        VARCHAR(255),       
+CUO_SIG                        VARCHAR(255),       
+IDE_TYP_PRC                    VARCHAR(255),       
+DEC_COD                        VARCHAR(255),       
+DEC_NAM                        VARCHAR(255),       
+DEC_REF_YER                    VARCHAR(255),       
+DEC_REF_NBR                    VARCHAR(255),       
+DEC_REP                        VARCHAR(255),       
+DEC_FLG                        NUMERIC(5),           
+FIN_AMT_FEE                    NUMERIC(16),          
+FIN_GTY_COD                    VARCHAR(255),       
+FIN_GTY_NAM                    VARCHAR(255),       
+FIN_GTY_DAT                    VARCHAR(255),        
+GEN_CTY_FLT_COD                VARCHAR(255),       
+GEN_CTY_FLT_NAM                VARCHAR(255),       
+GEN_CTY_DES_COD                VARCHAR(255),       
+GEN_CTY_DES_NAM                VARCHAR(255),       
+TPT_MOT_DPA_NAM                VARCHAR(255),       
+TPT_MOT_DPA_CTY                VARCHAR(255),       
+HAS_CTN                        VARCHAR(255),       
+TPT_MOT_BRD_NAM                VARCHAR(255),       
+TPT_MOT_BRD_CTY                VARCHAR(255),       
+MANIFEST                       VARCHAR(255),       
+TOKEN                          VARCHAR(255),       
+CUO_DEP_COD                    VARCHAR(5),    
+CUO_DEP_NAM                    VARCHAR(255),  
+EXP_BORDER_ARR_DAT             VARCHAR(255),        
+ARR_AT_BORDER_DAT              VARCHAR(255),        
+ARR_AT_BORDER_USER             VARCHAR(100),  
+ARR_AT_BORDER_USER_ID          NUMERIC(38),          
+HQ_APPROVED_AT                 VARCHAR(255),        
+EDITABLE                       NUMERIC,              
+IDE_REQ_REF                    VARCHAR(100),  
+IDE_REQ_DAT                    DATE,                
+IDE_REQ_REP                    VARCHAR(128),  
+GEN_CTY_EXP_COD                VARCHAR(100),  
+GEN_CTY_EXP_NAM                VARCHAR(255),  
+IDE_REQ_REP_CONFIRMED          NUMERIC(38),          
+IDE_REQ_REP_ID                 NUMERIC,              
+IDE_REQ_ADD_INFO               VARCHAR(1024), 
+HQ_APPROVED_ID                 NUMERIC,              
+HQ_APPROVED_BY                 VARCHAR(100),  
+TRANSPORT_START_DAT            DATE  ,              
+TRANSPORT_END_DAT              DATE ,
+CONSTRAINT WEB_CE_SAD_GEN_ID CHECK ( ID IS NOT NULL ),
+    CONSTRAINT WEB_CE_SAD_GEN_IDE_CUO_COD CHECK ( IDE_CUO_COD IS NOT NULL ),
+    CONSTRAINT WEB_CE_SAD_GEN_IDE_CUO_NAM CHECK ( IDE_CUO_NAM IS NOT NULL ),
+    CONSTRAINT WEB_CE_SAD_GEN_IDE_REG_TYP CHECK ( IDE_REG_TYP IS NOT NULL ),
+
+    CONSTRAINT PK_WEB_CE_SAD_GEN PRIMARY KEY (ID)
+);
+
+CREATE INDEX WEB_CE_SAD_GEN_IDX ON WEB_CE_SAD_GENERAL_SEGMENT (IDE_CUO_COD, DEC_REF_YER, DEC_COD, DEC_REF_NBR);
+CREATE INDEX WEB_CE_SAD_GEN_EXX ON WEB_CE_SAD_GENERAL_SEGMENT (CMP_EXP_COD);
+CREATE INDEX WEB_CE_SAD_GEN_DEC_IDX ON WEB_CE_SAD_GENERAL_SEGMENT (IDE_CUO_COD, DEC_REF_NBR);
+CREATE INDEX WEB_CE_SAD_GEN_MPN_INDX ON WEB_CE_SAD_GENERAL_SEGMENT (FIN_MPN);
+
+
+create  table WEB_CE_SAD_ITEM(
+INSTANCEID                 NUMERIC(10),         
+KEY_ITM_NBR                NUMERIC(10),         
+PCK_NBR                             NUMERIC(10),         
+PCK_MRK1                            VARCHAR(255),      
+PCK_MRK2                            VARCHAR(255),      
+CHASSIS_NBR                         VARCHAR(255),      
+ENGINE_NBR                          VARCHAR(255),      
+MAN_YER                             VARCHAR(255),      
+CYLINDER                            VARCHAR(255),      
+STEER                               VARCHAR(255),      
+PCK_TYP_COD                         VARCHAR(255),      
+PCK_TYP_NAM                         VARCHAR(255),      
+TAR_HSC_NB1                         VARCHAR(255),      
+TAR_HSC_NB2                         VARCHAR(255),      
+TAR_HSC_NB3                         VARCHAR(255),      
+TAR_HSC_NB4                         VARCHAR(255),      
+TAR_HSC_NB5                         VARCHAR(255),      
+TAR_PRF                             VARCHAR(255),      
+TAR_PRC_EXT                         VARCHAR(255),      
+TAR_QUO                             VARCHAR(255),      
+TAR_PRI                             NUMERIC(16,2),       
+TAR_VMT                             VARCHAR(255),      
+TAR_VDT                             VARCHAR(255),      
+TAR_ATT                             VARCHAR(255),      
+TAR_AIC                             VARCHAR(255),      
+GDS_ORG_CTY                         VARCHAR(255),      
+GDS_ORG_CRG                         VARCHAR(255),      
+GDS_DSC                             text,               
+GDS_DSC3                            VARCHAR(255),      
+LNK_TPT                             VARCHAR(255),      
+LNK_PRV_DOC                         VARCHAR(255),      
+LNK_PRV_WHS                         VARCHAR(255),      
+LIC_AMT_VAL                         NUMERIC(12,2),       
+LIC_AMT_QTY                         NUMERIC(12,2),       
+TXT_FRE                             VARCHAR(255),      
+TXT_RSV                             text,               
+TAX_AMT                             NUMERIC(16,2),       
+TAX_MOP                             NUMERIC(10),         
+TAX_GTY                             NUMERIC(12,2),       
+TAX_CTR                             NUMERIC(12,2),       
+TAX_DTY                             NUMERIC(12,2),       
+VIT_WGT_GRS                         NUMERIC(12,2),       
+VIT_WGT_NET                         NUMERIC(12,2),       
+VIT_CST                             NUMERIC(12,2),       
+VIT_CIF                             NUMERIC(12,2),       
+VIT_ADJ                             NUMERIC(12,2),       
+VIT_STV                             NUMERIC(16,2),       
+VIT_ALP                             NUMERIC(12,2),       
+VIT_INV_AMT_NMU                     NUMERIC(12,2),       
+VIT_INV_AMT_FCX                     NUMERIC(16,2),       
+VIT_INV_CUR_COD                     VARCHAR(255),      
+VIT_INV_CUR_NAM                     VARCHAR(255),      
+VIT_INV_CUR_RAT                     NUMERIC(12,2),       
+VIT_INV_CUR_REF                     NUMERIC(12,2),       
+VIT_EFR_AMT_NMU                     NUMERIC(12,2),       
+VIT_EFR_AMT_FCX                     NUMERIC(16,2),       
+VIT_EFR_CUR_COD                     VARCHAR(255),      
+VIT_EFR_CUR_NAM                     VARCHAR(255),      
+VIT_EFR_CUR_RAT                     NUMERIC(12,2),       
+VIT_EFR_CUR_REF                     NUMERIC(12,2),       
+VIT_IFR_AMT_NMU                     NUMERIC(12,2),       
+VIT_IFR_AMT_FCX                     NUMERIC(12,2),       
+VIT_IFR_CUR_COD                     VARCHAR(255),      
+VIT_IFR_CUR_NAM                     VARCHAR(255),      
+VIT_IFR_CUR_RAT                     NUMERIC(12,2),       
+VIT_IFR_CUR_REF                     NUMERIC(12,2),       
+VIT_INS_AMT_NMU                     NUMERIC(12,2),       
+VIT_INS_AMT_FCX                     NUMERIC(12,2),       
+VIT_INS_CUR_COD                     VARCHAR(255),      
+VIT_INS_CUR_NAM                     VARCHAR(255),      
+VIT_INS_CUR_RAT                     NUMERIC(12,2),       
+VIT_INS_CUR_REF                     NUMERIC(12,2),       
+VIT_OTC_AMT_NMU                     NUMERIC(12,2),       
+VIT_OTC_AMT_FCX                     NUMERIC(12,2),       
+VIT_OTC_CUR_COD                     VARCHAR(255),      
+VIT_OTC_CUR_NAM                     VARCHAR(255),      
+VIT_OTC_CUR_RAT                     NUMERIC(12,2),       
+VIT_OTC_CUR_REF                     NUMERIC(12,2),       
+VIT_DED_AMT_NMU                     NUMERIC(12,2),       
+VIT_DED_AMT_FCX                     NUMERIC(12,2),       
+VIT_DED_CUR_COD                     VARCHAR(255),      
+VIT_DED_CUR_NAM                     VARCHAR(255),      
+VIT_DED_CUR_RAT                     NUMERIC(12,2),       
+VIT_DED_CUR_REF                     NUMERIC(12,2),       
+VIT_MKT_RAT                         NUMERIC(12,2),       
+VIT_MKT_CUR                         VARCHAR(255),      
+VIT_MKT_AMT                         NUMERIC(12,2),       
+VIT_MKT_BSE_DSC                     VARCHAR(255),      
+VIT_MKT_BSE_AMT                     NUMERIC(12,2),       
+TAR_SUP_COD                         VARCHAR(255),      
+TAR_SUP_DSC                         VARCHAR(255),      
+TAR_SUP_QTY                         NUMERIC(12,2),       
+ADD_VAL                             NUMERIC(12),         
+TAR_PRC_NAT                         VARCHAR(255),      
+LIC_COD                             VARCHAR(255),      
+ATT_DOC                             VARCHAR(255),      
+ADD_INF                             VARCHAR(255),      
+OLD_HAS_PLATE_NO                    NUMERIC,             
+OLD_STEER_ORIGINAL                  VARCHAR(255), 
+OLD_PLATE_NUMBER_PREFIX             VARCHAR(255), 
+OLD_PLATE_NUMBER                    VARCHAR(255), 
+VEHICLE_TYPE                        VARCHAR(255), 
+VEHICLE_BRAND                       VARCHAR(255), 
+VEHICLE_MODEL                       VARCHAR(255), 
+VEHICLE_CONDITION                   VARCHAR(50),  
+VEHICLE_P_UNIT                      VARCHAR(50),  
+VEHICLE_G_V_W                       VARCHAR(255), 
+VEHICLE_COLOR                       VARCHAR(100), 
+VEHICLE_FUEL_TYPE                   VARCHAR(100), 
+VEHICLE_ADDITIONAL_INFO             VARCHAR(255), 
+VEHICLE_IS_ORIG_RIGHT_HAND          NUMERIC,             
+LNK_TPT_DAT                         DATE ,
+   CONSTRAINT WEB_CE_SAD_ITEM_INSTANCEID CHECK (INSTANCEID IS NOT NULL),
+    CONSTRAINT WEB_CE_SAD_ITEM_KEY_ITM_NBR CHECK (KEY_ITM_NBR IS NOT NULL),
+
+    CONSTRAINT PK_WEB_CE_SAD_ITEM PRIMARY KEY (INSTANCEID, KEY_ITM_NBR)
+
+)
+
+
+CREATE TABLE WEB_CE_VHC_ITM
+(
+    INSTANCEID    NUMERIC(10, 0),
+    KEY_ITM_RNK   NUMERIC(10, 0),
+    ITM_CNT       NUMERIC(10, 0),
+    ITM_QTY       NUMERIC(10, 0),
+    ITM_DSC       TEXT,
+    TAX_UNIT      NUMERIC(10, 0),
+    TAX_TOTAL     NUMERIC(10, 0),
+    TAX_MOP       NUMERIC(10, 0),
+    TAX_TOT_DSC   TEXT,
+    CHASIS_NBER   VARCHAR(255),
+    ENGINE_NBER   VARCHAR(255),
+    VIGNETTE_NBER VARCHAR(255),
+    MAN_YEA       VARCHAR(255),
+    STEER         VARCHAR(255),
+    CYLINDER      VARCHAR(255),
+
+    CONSTRAINT WEB_CE_VHC_ITM_INSTANCEID CHECK ( INSTANCEID IS NOT NULL ),
+    CONSTRAINT PK_WEB_CE_VHC_ITM PRIMARY KEY (INSTANCEID, KEY_ITM_RNK)
+);
+
+CREATE UNIQUE INDEX WEB_CE_VHC_ITM_UNIQUE_IDX ON WEB_CE_VHC_ITM (INSTANCEID, KEY_ITM_RNK)
+
+
+
+
+
+
+CREATE TABLE WEB_CE_VHC_RCP
+(
+    INSTANCEID  NUMERIC(10, 0),
+    IDE_COD     VARCHAR(255),
+    IDE_NAM     VARCHAR(255),
+    IDE_YEA     VARCHAR(255),
+    IDE_SER     VARCHAR(255),
+    IDE_DAT     TIMESTAMP(6),
+    DEC_SER     VARCHAR(255),
+    DEC_NBR     VARCHAR(255),
+    DEC_DAT     TIMESTAMP(6),
+    DEC_YEA     VARCHAR(255),
+    TRA_DEC_COD VARCHAR(255),
+    TRA_DEC_NAM VARCHAR(255),
+    TRA_DEC_ADD TEXT,
+    TRA_CMP_COD VARCHAR(255),
+    TRA_CMP_NAM VARCHAR(255),
+    TRA_CMP_ADD TEXT,
+    TRA_NAM     VARCHAR(255),
+    TRA_ADD     TEXT,
+    INV_CUR_COD VARCHAR(255),
+    INV_CUR_RAT NUMERIC(10, 0),
+    REG_DAT     TIMESTAMP(6),
+    RCP_DAT     TIMESTAMP(6),
+    OFFICER     VARCHAR(255),
+    PRN_NBR     NUMERIC(10, 0),
+    NOTE        TEXT,
+    IDE_NBR     NUMERIC(10, 0),
+
+    CONSTRAINT WEB_CE_VHC_RCP_INSTANCEID CHECK ( INSTANCEID IS NOT NULL ),
+    CONSTRAINT PK_WEB_CE_VHC_RCP PRIMARY KEY (INSTANCEID)
+);
+
+CREATE UNIQUE INDEX WEB_CE_VHC_RCP_UNIQUE_IDX ON WEB_CE_VHC_RCP (INSTANCEID);
+
+
+
+CREATE TABLE WEB_CE_VHC_TAX
+(
+    INSTANCEID  NUMERIC(10, 0) NOT NULL,
+    KEY_ITM_RNK NUMERIC(10, 0),
+    ITM_CNT     NUMERIC(10, 0),
+    TAX_LIN_COD VARCHAR(255),
+    TAX_LIN_BSE NUMERIC(16, 0),
+    TAX_LIN_RAT NUMERIC(10, 0),
+    TAX_LIN_AMT NUMERIC(16, 0),
+    TAX_LIN_MOP NUMERIC(10, 0),
+
+    CONSTRAINT WEB_CE_VHC_TAX_INSTANCEID CHECK ( INSTANCEID IS NOT NULL),
+    CONSTRAINT WEB_CE_VHC_TAX_KEY_ITM_RNK CHECK ( KEY_ITM_RNK IS NOT NULL),
+
+    CONSTRAINT PK_WEB_CE_VHC_TAX PRIMARY KEY (INSTANCEID, KEY_ITM_RNK)
+);
+
+CREATE UNIQUE INDEX WEB_CE_VHC_TAX_UNIQUE_IDX ON WEB_CE_VHC_TAX (INSTANCEID, KEY_ITM_RNK);
+
+
+CREATE TABLE WEB_CE_VHC_TAX
+(
+    INSTANCEID  NUMERIC(10, 0) NOT NULL,
+    KEY_ITM_RNK NUMERIC(10, 0),
+    ITM_CNT     NUMERIC(10, 0),
+    TAX_LIN_COD VARCHAR(255),
+    TAX_LIN_BSE NUMERIC(16, 0),
+    TAX_LIN_RAT NUMERIC(10, 0),
+    TAX_LIN_AMT NUMERIC(16, 0),
+    TAX_LIN_MOP NUMERIC(10, 0),
+
+    CONSTRAINT WEB_CE_VHC_TAX_INSTANCEID CHECK ( INSTANCEID IS NOT NULL),
+    CONSTRAINT WEB_CE_VHC_TAX_KEY_ITM_RNK CHECK ( KEY_ITM_RNK IS NOT NULL)
+
+    --CONSTRAINT PK_WEB_CE_VHC_TAX PRIMARY KEY (INSTANCEID, KEY_ITM_RNK)
+);
